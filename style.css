@@ -1,0 +1,153 @@
+/* General Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+
+/* Header */
+
+header {
+    background: purple;
+    color: white;
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+
+/* Navigation */
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    background: black;
+    margin: 0;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+
+/* Sections */
+
+section {
+    padding: 30px;
+    background: white;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: purple;
+}
+
+
+/* List Styling */
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section ul li {
+    background: black;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: left;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Contact Section */
+
+#contact {
+    background: white;
+    color: black;
+}
+
+
+/* Footer */
+
+footer {
+    background: black;
+    color: white;
+    padding: 0.2px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* Skills Section */
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+}
+
+.skill {
+    background: rgb(158, 250, 230);
+    color: black;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: auto;
+    min-width: 120px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#languages {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#languages h2 {
+    color: purple;
+    /* Purple */
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.languages-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.language {
+    background: rgb(158, 250, 230);
+    color: black;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: auto;
+    min-width: 120px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
